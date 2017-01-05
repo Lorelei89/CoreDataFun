@@ -7,12 +7,27 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Storing core data
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        //allows as to work with core data
+        let context = appDelegate.persistentContainer.viewContext
+        let newUser = NSEntityDescription.insertNewObject(forEntityName: "Users", into: context)
+        newUser.setValue("Sabina", forKey:"username")
+        newUser.setValue("Sabina123", forKey:"password")
+        
+        
+        do {
+            try context.save() 
+             print("SAVED")
+        } catch {
+            // PROCESS ERROR
+        }
     }
 
     override func didReceiveMemoryWarning() {
