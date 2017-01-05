@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					C23DBB561E1E9B3000ED3AF2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RWF7X7Z3VX;
 						ProvisioningStyle = Automatic;
 					};
 					C23DBB6D1E1E9B3000ED3AF2 = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWF7X7Z3VX;
 				INFOPLIST_FILE = CoreDataFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.CoreDataFun;
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWF7X7Z3VX;
 				INFOPLIST_FILE = CoreDataFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.CoreDataFun;
